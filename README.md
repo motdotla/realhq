@@ -18,7 +18,22 @@ Or install it yourself as:
 
 ## Usage
 
-rake realhq:scottmotte
+    $ rake realhq:scottmotte
+
+## Usage from Terminal
+
+Gems' rake tasks usually depend on an application - specifically a Rakefile. So if you want to run this from your terminal and stick with the 'rake task' theme, you must do the following.
+
+    $ vi Rakefile
+
+In that Rakefile place.
+
+    require 'realhq'
+
+Then exit vi and type the following.
+
+    $ irb
+    %x[rake realhq:scottmotte]
 
 ## Contributing
 

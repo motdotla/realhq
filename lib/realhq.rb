@@ -1,3 +1,4 @@
+require "rake"
 require "launchy"
 require "realhq/version"
 require "realhq/rake"
