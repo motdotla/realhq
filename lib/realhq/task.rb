@@ -51,7 +51,7 @@ module Realhq
     end
 
     def application_url
-      @url = "http://google.com"
+      @url = "https://gist.github.com/scottmotte/3d83f73d58b1fb994f26"
       @url
     end
 
